@@ -9,7 +9,7 @@ Lit package for getting a list of text file extensions
 ### Example Usage
 
 ```lua
-local extensions = require('./text-extensions').extensions()
+local extensions = require('text-extensions')
 
 for i = 1, #extensions do
   if 'txt' == extensions[i] then

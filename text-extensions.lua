@@ -1,10 +1,9 @@
 exports.name = "james2doyle/text-extensions"
-exports.version = "0.0.1"
-exports.homepage = "https://github.com/james2doyle/lit-text-extensions",
+exports.version = "0.0.2"
+exports.homepage = "https://github.com/james2doyle/lit-text-extensions"
 -- conversion of https://github.com/sindresorhus/text-extensions
 
-function exports.extensions()
-  return {
+local list = {
     "applescript",
     "asp",
     "aspx",
@@ -133,5 +132,6 @@ function exports.extensions()
     "yml",
     "zsh",
     "zshrc"
-  }
-end
+}
+
+return list
