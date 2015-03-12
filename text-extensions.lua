@@ -3,7 +3,7 @@ exports.version = "0.0.2"
 exports.homepage = "https://github.com/james2doyle/lit-text-extensions"
 -- conversion of https://github.com/sindresorhus/text-extensions
 
-local list = {
+exports.list = {
     "applescript",
     "asp",
     "aspx",
@@ -134,4 +134,4 @@ local list = {
     "zshrc"
 }
 
-return list
+return exports
