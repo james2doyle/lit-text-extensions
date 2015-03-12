@@ -13,7 +13,7 @@ local extensions = require('text-extensions')
 
 for i = 1, #extensions do
   if 'txt' == extensions[i] then
-    p('txt is a valid extension')
+    print('txt is a valid extension')
   end
 end
 ```
