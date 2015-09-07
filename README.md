@@ -2,9 +2,11 @@
 
 Lit package for getting a list of text file extensions
 
-### Install Extension
+### Install
 
-`lit install james2doyle/text-extensions`
+```
+lit install james2doyle/text-extensions
+```
 
 ### Example Usage
 
